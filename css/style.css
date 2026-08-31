@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font: 16px Arial;
+    background: #0a0729;
+    color: #fff;
+}
+
+header {
+    padding: 24px;
+    text-align: center;
+}
+
+main {
+    max-width: 950px;
+    margin: auto;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.game {
+    overflow: hidden;
+    background: #6138c2;
+    border-radius: 18px;
+}
+
+.game img {
+    width: 100%;
+    display: block;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.game h2 {
+    margin: 0;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+@media (max-width: 520px) {
+    header {
+        text-align: left;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
