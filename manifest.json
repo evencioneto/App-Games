@@ -1,0 +1,22 @@
+{
+  "name": "App Games",
+  "short_name": "AppGames",
+  "description": "Descubra jogos gratuitos e encontre promoções!",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0729",
+  "theme_color": "#6138c2",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -45,11 +45,40 @@ main {
     font-size: 1rem;
 }
 
+.localizacao-box {
+    margin-top: 16px;
+}
+
+#btn-localizacao {
+    background: #ffd700;
+    color: #0a0729;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-localizacao:hover {
+    background: #ffea70;
+}
+
+#localizacao {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #ccc;
+    min-height: 20px;
+}
+
 @media (max-width: 520px) {
     header {
         text-align: left;
     }
     .grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .localizacao-box {
+        text-align: center;
     }
 }

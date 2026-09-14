@@ -5,20 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="App Games - Escolha seu próximo jogo!">
     <title>App Games</title>
-    
-    <!-- Aqui linkamos o CSS externo -->
+    <meta name="theme-color" content="#6138c2">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/icon-192.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header> 
         <h1>App Games</h1>
         <p>Escolha seu próximo jogo!</p>
+        
+        <div class="localizacao-box">
+            <button id="btn-localizacao" onclick="mostrarLocalizacao()">
+                📍 Minha Localização
+            </button>
+            <p id="localizacao"></p>
+        </div>
     </header>
+    
     <main>
         <div class="grid" id="games">Carregando jogos...</div>
     </main>    
 
-    <!-- Aqui linkamos o JS externo -->
     <script src="js/script.js" defer></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
 </body>
 </html>
