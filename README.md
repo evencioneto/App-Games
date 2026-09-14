@@ -13,7 +13,7 @@ Esse Site foi criado em Sala de Aula, para o aprendizado de utilização de APIs
 ### Versão 2 (HTML, CSS e JS separados)
 ![Lighthouse v2](assets/Lighthouse%20Vers%C3%A3o%202.jpg)
 
-## Versão após adicionar o o PWA e Gelocalização:
+## Versão após adicionar o  PWA e Gelocalização:
 
 ### Versão 3 (PWA e Geolocalização)
 ![PWA e Geolocalização](assets/pwa.png)
